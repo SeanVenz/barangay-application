@@ -1,0 +1,13 @@
+﻿CREATE PROCEDURE [dbo].[spFamily_DeleteFamilyById]
+	@id INT
+AS
+BEGIN
+	IF EXISTS(SELECT * FROM Family WHERE Id = @id)
+	BEGIN
+		DELETE FROM Family WHERE Id = @id;
+	END
+	ELSE
+	BEGIN
+		SELECT CAST(0 AS INT);
+	END
+END

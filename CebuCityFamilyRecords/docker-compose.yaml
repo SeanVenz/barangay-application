@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  api:
+    image: cebucityfamilyapi
+    build: 
+      context: ./CebuCityFamilyAPI
+    ports:
+      - "8000:80"
+    depends_on: 
+      - db
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=db;Database=CebuCityFamilyDb;User=sa;Password=Bachelor3rdy3ar;
+  db:
+    image: cebucityfamilydb
+    build: 
+      context: ./CebuCityFamilyDb
+    environment: 
+      - SA_PASSWORD=Bachelor3rdy3ar
+      - ACCEPT_EULA=Y

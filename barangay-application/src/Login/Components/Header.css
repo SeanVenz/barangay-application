@@ -1,0 +1,16 @@
+  .Login-header-bg {
+    width: "100%";
+    height: "100px";
+    background-color: #BA0018;
+    color: white;
+  }
+
+  .Login-header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: #BA0018;
+    font-weight: bolder;
+    text-align: center;
+  }

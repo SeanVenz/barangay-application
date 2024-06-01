@@ -1,0 +1,71 @@
+  .member-modal-container {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+  }  
+  
+  .member-modal {
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: white;
+    width: 30em;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  
+  .member-form-title {
+    color: #BA0018;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    font: "Lato";
+  }
+  
+  .member-modal .btn {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #BA0018;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: white;
+  }
+  
+  .member-error {
+    background-color: #FCDE0C99;
+    color: #BA0018;
+    border-radius: 0.3rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+
+  .member-form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .member-form-group input,
+  .member-form-group textarea,
+  .member-form-group select {
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+  }
+  
+  .member-form-group label {
+    margin-bottom: 0.2rem;
+  }

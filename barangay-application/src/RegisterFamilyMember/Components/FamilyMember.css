@@ -1,0 +1,64 @@
+ .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #faf9f6;
+  }
+
+  .member-page {
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+  }
+  
+  .add-member-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .member-search-container {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    border-color: black;
+    width: 500px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    border: 1px solid black;
+  }
+
+  .member-search {
+    margin-top: 0;
+    padding: 10px;
+    font-size: 20px;
+    width: 400px;
+    height: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+    margin-left: 0;
+    border: 0px solid white;
+    outline: none;
+  }
+
+  .member-search-icon {
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right: 5px;
+}

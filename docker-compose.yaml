@@ -1,0 +1,37 @@
+version: '3'
+services:
+  cebucityfamilyapp:
+    build:
+      context: ./barangay-application
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./barangay-application:/app
+    depends_on:
+      - cebucityfamilyapi
+      - cebucityfamilydbimg
+    container_name: cebucityfamilyapp
+
+  cebucityfamilyapi:
+    build:
+      context: ./CebuCityFamilyRecords/CebuCityFamilyAPI
+      dockerfile: Dockerfile
+    ports:
+      - "7045:5000"
+    depends_on:
+      - cebucityfamilydbimg
+    container_name: cebucityfamilyapi
+
+  cebucityfamilydbimg:
+    build:
+      context: ./CebuCityFamilyRecords/CebuCityFamilyDb
+      dockerfile: Dockerfile
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=MyStrongP@ssw0rd
+    ports:
+      - "1433:1433"
+    volumes:
+      - ./CebuCityFamilyRecords/CebuCityFamilyDb:/app
+    container_name: cebucityfamilydb

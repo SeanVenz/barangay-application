@@ -1,0 +1,33 @@
+.Registration {
+    width: 100vw;
+    height: 100vh;
+}
+
+.Login-text {
+    color: #0128B4;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.Text {
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+.Line {
+    border-bottom: 1px solid #BA001899;
+    margin-top: 30px; 
+    margin-bottom: 20px;
+}
+
+.Registration-form {
+    width: 700px;
+    height: 600px;
+    background-color: #FCDE0C99;
+    border: 3px solid #BA0018;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}

@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Barangay]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Name] NVARCHAR(50) NOT NULL, 
+    [Captain] NVARCHAR(50) NOT NULL 
+)

@@ -1,0 +1,108 @@
+.h4Text1 {
+    font-family: 'Montserrat Black', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #BA0018;
+}
+
+.h4Text2 {
+    font-family: 'Montserrat Black', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 40px;
+}
+
+.BNameContainer {
+    background-color: #BA0018;
+    width: 604px;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.BLabelContainer {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.MainContainer {
+    width: 100vw;
+    height: 100vh;
+}
+
+.FunctionContainer {
+    width: 100%;
+    height: 100px;
+    background-color: #BA0018;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.back-icon {
+    font-size: 22px;
+}
+
+.add-button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #BA0018;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.add-icon {
+    font-size: 18px;
+    color: white;
+}
+
+.search-container {
+    width: 804px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.search {
+    font-size: 20px;
+    border: 0px solid white;
+    background-color: white;
+    width: 700px;
+    outline: none;
+}
+
+.search-icon {
+    font-size: 22px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

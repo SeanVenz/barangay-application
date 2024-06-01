@@ -1,0 +1,23 @@
+  .Module-bg {
+    background-color: #FCDE0C99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 650px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .User-authentication {
+    text-align: left;
+    color: black;
+    margin-top: 50px;
+  }
+
+  .Forgot-pw {
+   text-align: "center";
+   color: "black"; 
+  }

@@ -1,0 +1,67 @@
+  .member-table-wrapper {
+    width: 100%;
+  }
+  
+  .member-table {
+    display: block;
+    overflow: hidden;
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px #ccc;
+    border-radius: 10px;
+    white-space: nowrap;
+    width: 100em;
+    max-width: fit-content;
+    margin: auto;
+    table-layout: auto;
+    overflow-x: auto;
+  }
+  
+  .member-table thead {
+    color: black;
+    background-color: #FCDE0C99;
+  }
+  
+  .member-table th,
+  .member-table td {
+    padding: 0.8rem;
+  }
+  
+  .member-table td {
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .member-table tbody tr:hover {
+    background-color: #eee;
+    border: #BA0018;
+  }
+  
+  .member-expand {
+    width: 100%;
+  }
+  
+  .member-label {
+    border-radius: 3px;
+    padding: 0.3rem;
+    color: white;
+  }
+  
+  .member-actions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .member-actions svg {
+    cursor: pointer;
+  }
+  
+  .member-delete-btn {
+    color: #e10d05;
+  }
+
+  .member-edit-btn {
+    color: green;
+    margin-right: 1000;
+  }
